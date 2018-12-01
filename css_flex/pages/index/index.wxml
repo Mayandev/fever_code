@@ -1,0 +1,21 @@
+
+<view class="circle_line">
+		<view class="circle">
+			<view class="circle_icon">
+				<image class="circle_icon_image" mode="scaleToFill" src="/images/ios.png" />
+			</view>
+			<view class="circle_txt">iOS开发</view>
+		</view>
+		<view class="circle">
+			<view class="circle_icon">
+				<image class="circle_icon_image" mode="scaleToFill" src="/images/android.png" />
+			</view>
+			<view class="circle_txt">安卓开发</view>
+		</view>
+		<view class="circle">
+			<view class="circle_icon">
+				<image class="circle_icon_image" mode="scaleToFill" src="/images/h5.png" />
+			</view>
+			<view class="circle_txt">HTML5开发</view>
+		</view>
+</view>

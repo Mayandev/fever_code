@@ -1,0 +1,37 @@
+/**index.wxss**/
+
+.circle_line {
+  /* 定义弹性布局，默认水平排列 */
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+	background:linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+
+.circle_icon_image {
+  height: 30px;
+  width: 30px;
+}
+
+.circle_txt {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+}
+.case_show {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 30rpx;
+}
