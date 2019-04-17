@@ -1,5 +1,8 @@
 ## 「嗜码」公众号文章源码集合
 
-1、[小程序 flex 布局](https://github.com/Mayandev/fever_code/blob/master/%E5%B0%8F%E7%A8%8B%E5%BA%8F%20flex%20%E5%B8%83%E5%B1%80/article.md)
+1、[小程序 flex 布局](https://github.com/Mayandev/fever_code/blob/master/mini_program/css_flex/README.md)
 
-2、[python 爬校徽图片](https://github.com/Mayandev/fever_code/blob/master/python%20%E7%88%AC%E6%A0%A1%E5%BE%BD%E5%9B%BE%E7%89%87/article.md)
+2、[python 爬校徽图片](https://github.com/Mayandev/fever_code/blob/master/python/avatar_scrapy/README.md)
+
+3、[小程序添加激励视频广告](https://github.com/Mayandev/fever_code/blob/master/mini_program/video_ad_test/README.md)
+

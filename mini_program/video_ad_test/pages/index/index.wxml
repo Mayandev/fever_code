@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+    <button bindtap="openVideoAd"> 打开激励视频 </button>
+</view>
