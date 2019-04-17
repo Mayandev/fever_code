@@ -41,7 +41,6 @@
 首先在 js 文件中定义一个全局作用域的视频广告对象
 
 ```javascript
-// 代码来自公众号「嗜码」
 // 在页面中定义激励视频广告对象
 var videoAd = null;
 
@@ -54,7 +53,6 @@ Page({
 因此在 onLoad 函数中调用广告接口，并监听广告关闭。
 
 ```javascript
-// 代码来自公众号「嗜码」
 onLoad() {
   if (wx.createRewardedVideoAd) {
     // 加载激励视频广告
@@ -127,3 +125,5 @@ openVideoAd() {
 [「微软」推出的那些好用的微信小程序](<https://mp.weixin.qq.com/s?__biz=MzIyNDQzMDAwNg==&mid=2247485140&idx=1&sn=65a5f6f67119d485731857e16e35ad9d&chksm=e80e540ddf79dd1b62b3c51352cc33d1384c7bb102cc4d90ed37405a5fd3c92fb7a801358522&token=1078153792&lang=zh_CN#rd>)
 
 [小程序中添加广告并获取收益](https://mp.weixin.qq.com/s?__biz=MzIyNDQzMDAwNg==&mid=2247484838&idx=1&sn=1ffc43c14cc8b7472adf6039508e485a&chksm=e80e577fdf79de695f6be6a82975786cf2783644c36f878e0382f3aac7575fc503a4dc87c767&token=1078153792&lang=zh_CN#rd)
+
+![](https://ws3.sinaimg.cn/large/006tNc79gy1g25xoimqxjj30jg0dwjtq.jpg)
