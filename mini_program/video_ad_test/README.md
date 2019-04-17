@@ -77,7 +77,7 @@ onLoad() {
 ```
 注意这里需要对错误进行捕捉，否则会报下面的错误。
 
-![image-20190417202431550](/Users/phillzou/Library/Application Support/typora-user-images/image-20190417202431550.png)
+![image-20190417211157949](https://ws3.sinaimg.cn/large/006tNc79gy1g25xualeeoj318e0d4q6i.jpg)
 
 然后，在合适的位置展示广告，例如我这在一个 button 的 tap 事件进行广告显示。
 
