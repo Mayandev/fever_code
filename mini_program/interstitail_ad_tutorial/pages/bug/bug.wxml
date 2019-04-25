@@ -1,0 +1,4 @@
+<!--pages/bug/bug.wxml-->
+<view class='container'>
+  <text>Bug</text>
+</view>
