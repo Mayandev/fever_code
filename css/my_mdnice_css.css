@@ -1,25 +1,27 @@
-/*自定义样式，实时生效*/
-
-/*自定义样式，实时生效*/
 #nice {
-  margin: 0px 10px;
-  word-spacing: 0px; 
+  margin: 0px 8px;
+  word-spacing: 3px;
   letter-spacing: 1px;
 }
 
 #nice p {
-	margin: 1.5em 0;
-	padding: 0;
-	line-height: 1.8em;
-	color: #232323;
+  margin: 1.5em 0;
+  padding: 0;
+  line-height: 1.8em;
+  color: rgb(66, 75, 93);
   font-size: 16px;
-  font-family: Optima-Regular;
+  font-family: Futura-Medium;
+  text-align: justify;
+}
+
+#nice p strong {
+  color: rgb(66, 75, 93);
 }
 
 /* 一级标题 */
 #nice h1 {
-  font-size: 2.0em;
-	line-height: 1.1em;
+  font-size: 2em;
+  line-height: 1.1em;
   padding-bottom: 10px;
   margin-bottom: 4px;
   color: #232323;
@@ -30,18 +32,24 @@
   font-weight: 700;
 }
 
-#nice h2, h3, h4, h5, h6 {
- line-height: 1.5em;
- margin-top: 2.2em;
- margin-bottom: 4px;
+#nice h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+  margin-top: 2.2em;
+  margin-bottom: 4px;
+  font-family: Futura-Medium;
 }
 
 /* 一级标题修饰 请参考有实例的主题 */
-#nice h1:after {}
+#nice h1:after {
+}
 
 /* 二级标题 */
 #nice h2 {
- margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 /* 二级标题内容 */
@@ -50,41 +58,53 @@
 }
 
 /* 二级标题修饰 请参考有实例的主题 */
-#nice h2:after {}
+#nice h2:after {
+}
 
 /* 三级标题 */
 #nice h3 {
   line-height: 1.4;
   padding-top: 10px;
   margin: 10px 0 5px;
-  color: #232323
+  color: #232323;
 }
 
 /* 三级标题内容 */
 #nice h3 span {
   color: #232323;
   font-weight: 700;
-  font-size: 1.0em;
+  font-size: 1em;
   padding-left: 20px;
   border-left: 3px solid #ab1942;
+  font-weight: norm;
 }
 
 /* 三级标题修饰 请参考有实例的主题 */
-#nice h3:after {}
+#nice h3:after {
+}
 
 /* 引用
 * 左边缘颜色 border-left-color: black;
 * 背景色 background: gray;
 */
 #nice blockquote {
-  border-left-color: #ddd;
-  background: none;
+  border-left-color: #ddd !important;
+  background: none !important;
 }
 
+#nice blockquote p {
+  color: rgb(66, 75, 93) !important;
+  background: none !important;
+}
+/* 引用文字 */
+#nice blockquote li {
+  color: #888 !important;
+  font-size: 15px;
+}
 
 /* 引用文字 */
-#nice blockquote p {
-  color: #999999;
+#nice blockquote section {
+  color: #888 !important;
   font-size: 15px;
 }
 
@@ -93,6 +113,8 @@
   border: none;
   text-decoration: none;
   color: #ab1942;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 #nice a:hover {
@@ -111,23 +133,26 @@
  * list-style-type: upper-roman|lower-greek|lower-alpha;
  */
 #nice ol {
-  
 }
 
 /* 列表内容，不要设置li
  */
 #nice li section {
-  color: #333333;
+  color: rgb(66, 75, 93);
+  font-family: Futura-Medium;
 }
 
 /* 加粗 */
-#nice strong {}
+#nice strong {
+}
 
 /* 斜体 */
-#nice em {}
+#nice em {
+}
 
 /* 加粗斜体 */
-#nice strong em {}
+#nice strong em {
+}
 
 /* 删除线 */
 #nice del {
@@ -149,34 +174,37 @@
 * 居左 margin: 0 0;
 */
 #nice img {
- display: block;
-  margin: 5px auto;  /*图片水平居中*/
+  display: block;
+  margin: 5px auto; /*图片水平居中*/
   /* margin:0 0;  */ /*图片水平居左，如需要请打开*/
-  max-width:100%;
-border-radius: 3px;
-border: none;
+  max-width: 100%;
+  border-radius: 3px;
+  border: none;
 }
 
 /* 图片描述文字 */
 #nice figcaption {
-  margin-top:10px;
+  margin-top: 10px;
   color: #888;
   font-size: 14px;
 }
 
 /* 行内代码 */
-#nice p code, li code {
-  color: #9b6e23;
-  background-color: #fff5e3;
-  padding: 3px;
-  margin: 3px;
+#nice p code,
+li code {
+  color: #232323;
+  background-color: rgb(255, 218, 169);
+  font-family: Monaco;
+  border-radius: 0;
+  font-size: 16px;
 }
 
 /* 非微信代码块
  * 代码块不换行 display: -webkit-box !important;
  * 代码块换行 display: block;
  */
-#nice pre code {}
+#nice pre code {
+}
 
 /*
  * 表格内的单元格
@@ -210,13 +238,12 @@ border: none;
   font-weight: 800;
 }
 
-
 /* 参考资料编号 */
 #nice .footnote-num {
 }
 
 /* 参考资料文字 */
-#nice .footnote-itbem p { 
+#nice .footnote-itbem p {
 }
 
 /* 参考资料解释 */
@@ -231,5 +258,29 @@ border: none;
 
 /* 行内公式
  */
-#nice .inline-equation svg {  
+#nice .inline-equation svg {
+}
+
+#nice section {
+  color: rgb(66, 75, 93);
+  font-family: Futura-Medium;
+}
+
+#nice ol {
+  color: rgb(66, 75, 93);
+  font-family: Futura-Medium;
+}
+
+#nice table {
+  font-family: Futura-Medium;
+  font-weight: normal;
+  color: #232323;
+}
+
+#nice .footnote-word {
+  font-weight: normal;
+}
+
+#nice .footnote-ref {
+  font-weight: normal;
 }
