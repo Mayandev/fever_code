@@ -1,4 +1,4 @@
-## 「嗜码」公众号文章源码集合
+## 「Smart」公众号文章源码集合
 
 1、[小程序 flex 布局](https://github.com/Mayandev/fever_code/tree/master/mini_program/css_flex)
 
